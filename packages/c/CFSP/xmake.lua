@@ -1,6 +1,7 @@
 package("CFSP")
     add_urls("https://github.com/CoralFans-Dev/CFSP.git")
     add_versions("1.0.0", "4b421b80a556bcac19dbb812063cda5f841eeece")
+    add_versions("2.0.0", "29230356dc432b893d529954eb70010393a77cc4")
     on_install(function (package)
         import("package.tools.xmake").install(package, configs)
     end)
